@@ -1,0 +1,41 @@
+.leftbar {
+  width: 20%;
+  padding: 1em;
+  min-height: 100vh;
+  border-right: 1px solid var(--dark-light-bg);
+  position: sticky;
+  top: 100px;
+}
+
+.leftbar a {
+  padding: 0.8em;
+  color: var(--white);
+  border-radius: 4px;
+  text-decoration: none;
+  display: flex;
+  margin: 0.5em 0;
+}
+
+.leftbar button {
+  font-size: 1em;
+  cursor: pointer;
+  padding: 0.8em;
+  color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.leftbar a.active {
+  background-color: rgb(39, 41, 42);
+}
+
+.leftbar a .icon,
+.leftbar button .icon {
+  margin-right: 0.5em;
+}
+
+.leftbar a:hover,
+.leftbar button:hover {
+  background-color: rgb(39, 41, 42);
+}

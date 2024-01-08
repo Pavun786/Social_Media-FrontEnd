@@ -1,0 +1,39 @@
+header {
+  position: sticky;
+  top: 0;
+  background-color: var(--dark-bg);
+  padding: 1em 0;
+  border-bottom: 1px solid var(--dark-light-bg);
+  z-index: 999;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.nav a {
+  color: aliceblue;
+  text-decoration: none;
+  color: var(--white);
+}
+
+.nav a.active .icon {
+  color: var(--accent);
+}
+
+.icon {
+  font-size: 1.5em;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav .icon {
+  margin: 0 0.4em;
+}
+
+.btn-link {
+  cursor: pointer;
+}
